@@ -1,0 +1,59 @@
+# Environment
+.env
+.env.local
+.env.production
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Models & Data
+*.pt
+*.pth
+*.onnx
+models/
+qdrant_storage/
+
+# Uploads & Outputs
+uploads/
+outputs/
+temp/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Misc
+*.bak
+*.tmp
+Thumbs.db

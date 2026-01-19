@@ -1,0 +1,21 @@
+# Web Framework
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+
+# Deep Learning - GPU Support
+tensorflow[and-cuda]
+tf-keras
+
+# Face Recognition
+deepface
+
+# Vector Search
+faiss-gpu  # GPU-accelerated FAISS (use faiss-cpu if no CUDA)
+
+# Image Processing
+numpy
+opencv-python-headless
+Pillow
+onnxruntime-gpu
