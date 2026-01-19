@@ -12,7 +12,7 @@ tf-keras
 deepface
 
 # Vector Search
-faiss-gpu  # GPU-accelerated FAISS (use faiss-cpu if no CUDA)
+faiss-cpu  # GPU-accelerated FAISS (use faiss-cpu if no CUDA)
 
 # Image Processing
 numpy
